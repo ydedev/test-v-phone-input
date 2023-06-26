@@ -18,11 +18,11 @@ import 'flag-icons/css/flag-icons.min.css';
 import 'v-phone-input/dist/v-phone-input.css';
 import { createVPhoneInput } from 'v-phone-input';
 const app = createApp(App)
-// IMPORTANT: required when treeshaking Vuetify components.
-app.component('VAutocomplete', VAutocomplete);
 
+
+//app.component('VAutocomplete', VAutocomplete);
 const vPhoneInput = createVPhoneInput({
-  enableSearchingCountry: true,
+  //enableSearchingCountry: true,
 });
 
 
