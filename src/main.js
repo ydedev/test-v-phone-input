@@ -22,7 +22,7 @@ const app = createApp(App)
 
 //app.component('VAutocomplete', VAutocomplete);
 const vPhoneInput = createVPhoneInput({
-  //enableSearchingCountry: true,
+  enableSearchingCountry: true,
 });
 
 
